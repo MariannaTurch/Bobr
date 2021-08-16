@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1,initial-scale=1"/>
+	<title>BOBR studio</title>
+	<link href="css/stylesBOBR.css" rel="stylesheet" media="all">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/button_menu.js" defer></script>
+
+</head>
+<body>
+	<header>
+		<nav id="menu_desktop">
+			<img class="logoBobr"src='img/logoBobr.png'>
+			<ul>
+				<li><a href="#portfolio">Портфолио</a></li>
+				<li>
+					<button onclick="myFunction()" class="menu_btn">Контакты<span>&#11167 </span></button>
+					<ul id="menu_2" class="menu_2">
+						<li><a class="a" href="#url">Почта</a></li>
+						<li><a href="#url">Телефон</a></li>
+						<li><a href="#url">Telegram</a></li>
+						<li><a href="#url">WatsApp</a></li>
+						<li><a href="#url">Viber</a></li>   						
+					</ul> 
+				</li>
+				<li><a href="#we_do">Наши услуги</a></li>
+				<li><a href="#about">О нас</a></li>
+			</ul>
+		</nav>
+		<div class="hamburger-menu">
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+						<span></span>
+					</label>
+				
+					<nav class="menu">	
+						<div class="menu_open1">
+							<li><img src='img/menu_icon_1.png' width="28px" height="28px"><a class="menu_list">Портфолио</a></li>
+							<li><img src='img/menu_icon_2.png' width="28px" height="28px"><a class="menu_list">Контакты</a></li>		
+							<li><img src='img/menu_icon_3.png' width="28px" height="28px"><a class="menu_list">О нас</a></li>
+							<li><img src='img/menu_icon_4.png' width="28px" height="28px"><a class="menu_list">Наши услуги</a></li>
+							<li><div class="menu_list line"></div></li>		
+							<li><img src='img/menu_icon_5.png' width="28px" height="28px"><a class="menu_list phone">8 999 123 45 67</a></li>
+							<li><img src='img/menu_icon_6.png' width="28px" height="28px"><a class="menu_list telega">@Lord_Bobr</a></li>
+						</div>
+							<div class="menu_open">
+						</div>
+					</nav> 
+				
+			</div>
+		<div class="box">
+			<div class="box2">
+				<div class="oglavlenie">
+					<span class="oglavlenie_ru">Приложения.</span>Applications<br><span class="oglavlenie_ru">Дизайн-проекты.</span>Design projects<br><span class="oglavlenie_ru">Веб-сайты.</span>Websites<br><span class="oglavlenie_ru">AR-проекты.</span>Augmented Reality
+				</div>
+				<h1><span class="BOBR">BOBR.</span><span class="studio">studio</span></h1>
+				<img src='img/head.png' width="100%" id="about">
+			</div>
+		</div>
+	</header>
+	<main class="box">
+		<div class="box2">
+			<div class="principles" >
+				<div class="principle_1">
+					<h3>Наш главный принцип<br>Качество, а не количество</h3>
+					<img src='img/principle_1.png'>
+				</div>
+				<div class="principle_2">
+					<img src='img/principle_2.png'>
+					<h3>Любим нашу работу и<br>делаем ее с душой</h3>
+				</div>
+				<div class="principle_3">
+					<h3>Индивидуальный<br>подход к решению<br>проблем</h3>
+					<img src='img/principle_3.png'>
+				</div>
+				<div class="principle_4">
+					<img src='img/principle_4.png'>
+					<h3>Работаем по современным<br>стандартам разработки</h3>
+				</div>			
+			</div>
+			
+			<h2>Наши работы</h2>
+			<p class="our_work_title" id="portfolio">Здесь вы сможете ознакомиться с<br>проектами, над которыми мы<br>работали</p>
+			<div class="our_work">
+				<div class="our_work_1"><p class="post our_work_text_left">Фотостойка для футбола</p></div>
+				<div class="our_work_2"><p class="post our_work_text_right">Новогодняя трансляция Москвы</p></div>
+				<div class="our_work_3"><p class="post our_work_text_left">Интерактивный стол</p></div>
+				<div class="our_work_4"><p class="post our_work_text_right">Снекбоксы в офис</p></div>
+				<div class="our_work_5"><p class="post our_work_text_left">Интернет-магазин Омега-3 капсул</p></div>
+				<!-- <img src='img/our_work_1.png' width="100%">
+				<img src='img/our_work_2.png' width="100%"> 
+				<img src='img/our_work_3.png' width="100%"> 
+				<img src='img/our_work_4.png' width="100%">
+				<img src='img/our_work_5.png' width="100%">  -->
+			</div>
+			
+			<h2>Наши клиенты</h2>
+			<h4>Мы работаем с различными командами</h4>
+			<div class="clients">
+				<div class="clients_group_1">
+					<img src='img/Экономика_Москвы.png'>
+					<img src='img/Крылья_Советов.png'>
+				</div>
+				<div class="clients_group_2">
+					<img src='img/Norwegian_Fish_oil.png'>
+					<img src='img/Стадион_Калининград.png'>
+					<img src='img/Самара_Арена.png'>
+				</div>
+				<div class="clients_group_3">
+					<img src='img/Радиус_Автоматика.png'>
+					<img src='img/It.png'>
+				</div>
+				<div class="clients_group_4">
+					<img src='img/Ermolino.png'>
+					<img src='img/Lely.png'>
+					<img src='img/Рай_обоев.png'>
+				</div>
+				<div class="clients_group_5">
+					<img src='img/Polimed.png'>
+				</div>
+			</div>
+			
+			<h2 id="we_do">Мы делаем</h2>
+			<div class="we_do" >
+				<div class="service blue">
+					<img src='img/circle_blue.png'>
+					<h4>UX/UI дизайн</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+				<div class="service red">
+					<img src='img/circle_red.png'>
+					<h4>Приложения</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+				<div class="service purple">
+					<img src='img/circle_purple.png'>
+					<h4>Backend</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+				<div class="service lightgreen">
+					<img src='img/circle_lightgreen.png'>
+					<h4>Frondend</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+				<div class="service orange">
+					<img src='img/circle_orange.png'>
+					<h4>Брендинг</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+				<div class="service green">
+					<img src='img/circle_green.png'>
+					<h4>Анимация</h4>
+					<span>Одностраничники,<br>магазины, презентации</span>
+				</div>
+			</div>
+			
+			<h2>Наши услуги</h2>
+			<div class="our_service">
+				<div class="heading_service">
+					<div class="radius_orange"></div>
+					<h5>Под ключ</h5>
+				</div>
+				<span class="service_price_title">Посадочная страница</span>
+				<span class="service_price_orange">От 10 000 рублей</span>
+				
+				<span class="service_price_title">Многостраничный сайт</span>
+				<span class="service_price_orange">От 30 000 рублей</span>
+				
+				<span class="service_price_title">Интернет-магазин</span>
+				<span class="service_price_orange">От 50 000 рублей</span>
+				
+				<div class="heading_service">
+					<div class="radius_red"></div>
+					<h5>Соцсети и мультимедиа</h5>
+				</div>
+				<span class="service_price_title">Инстаграм-маска</span>
+				<span class="service_price_red">От 5 000 рублей</span>
+				
+				<span class="service_price_title">Обложки для соцсетей</span>
+				<span class="service_price_red">От 1 500 рублей</span>
+				
+				<span class="service_price_title">Презентация</span>
+				<span class="service_price_red">От 150 рублей/слайд</span>
+				
+				<span class="service_price_title">Работа с видео</span>
+				<span class="service_price_red">От 1 000 рублей</span>
+				
+				<div class="heading_service">
+					<div class="radius_purple"></div>
+					<h5>Заполнить</h5>
+				</div>
+				<span class="service_price_title">Посадочная страница </span>
+				<span class="service_price_purple">От 10 000 рублей</span>
+				
+				<span class="service_price_title">Многостраничный сайт</span>
+				<span class="service_price_purple">От 30 000 рублей</span>
+				
+				<span class="service_price_title">Интернет-магазин</span>
+				<span class="service_price_purple">От 50 000 рублей</span>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<form action=""> <!-- что писать тут? -->
+			<div class="form_pole">
+				<p class="form_title">Создайте ваш следующий<br>проект вместе с нами</p>
+				
+				<div class="form_1">
+					<p>Ваше имя</p>
+					<input type="text">
+				</div>
+				<div class="form_2">
+					<p>E-mail</p>
+					<input type="text">
+				</div>
+				<div class="form_3">
+					<p>Телефон</p>
+					<input type="text">
+				</div>
+				<div class="form_4">
+					<p>О проекте</p>
+					<input type="text">
+				</div>
+				<div class="form_5">
+					<label for="icon_footer"><img src='img/icon_footer.png'></label>
+					<input type="file" id="icon_footer" name="icon_footer" accept=".txt, .doc">
+				</div> 
+				<div class="form_6">
+					<input id="form_6" type="checkbox">
+					<label for="form_6"></label>
+					<p>Согласие на обработку<br>персональных данных</p>
+				</div>
+				<div class="form_7">
+					<p><input type="submit"></p>
+				</div>
+			</div>
+		</form>
+		<div class="black_footer_desktop"><!-- Для компуктеров -->
+			<span class="black_footer__desktop_text_1"><a href="mailto:LORD_BOBR@mail.ru">LORD_BOBR@mail.ru</a><br><a href="https://t.me/Lord_Bobr" target="_blank">@Lord_Bobr</a></span>
+			<div class="black_footer_desktop_img">
+				<a href="https://www.instagram.com/bobr.studio/" target="_blank"><img src='img/icon_instagram.png'></a>
+				<a href="https://www.facebook.com/B0BR.STUDI0/?ti=as" target="_blank"><img src='img/icon_facebook.png'></a>
+				<a href="https://vk.com/bobr.studio" target="_blank"><img src='img/icon_vk.png'></a>
+				<a class="black_footer_desktop_text_2">пользовательское соглашение</a>
+				<span class="black_footer_desktop_text_3">© 2017 - 2021 Bobr.studio – Цифровое агентсво</span>
+				<span class="black_footer_desktop_text_4">Все права защищены</span>
+			</div>
+			<div class="black_footer_desktop_text_5-8">
+				<a href="#portfolio" class="black_footer_desktop_text_5">Портфолио</a>
+				<a class="black_footer_desktop_text_6">Контакты</a>
+				<a href="#we_do" class="black_footer_desktop_text_7">Наши услуги</a>
+				<a href="#about" class="black_footer_desktop_text_8">О нас</a>
+			</div>
+		</div>
+		
+		<div class="black_footer_mob"> <!-- Для моильной версии -->
+			<a href="#portfolio" class="black_footer_text_1">Портфолио</a>
+			<a class="black_footer_text_2">Контакты</a>
+			<a href="#we_do" class="black_footer_text_3">Наши услуги</a>
+			<a href="https://www.instagram.com/bobr.studio/" target="_blank"><img src='img/icon_instagram.png'></a>
+			<a href="https://www.facebook.com/B0BR.STUDI0/?ti=as" target="_blank"><img src='img/icon_facebook.png'></a>
+			<a href="https://vk.com/bobr.studio" target="_blank"><img src='img/icon_vk.png'></a>
+			<a class="black_footer_text_4">пользовательское соглашение</a>
+			<span class="black_footer_text_5">© 2017 - 2021 Bobr.studio – Цифровое агентсво</span>
+			<span class="black_footer_text_6">Все права защищены</span>
+		</div>
+	</footer>
+	<script src="js/scroll_BOBR.js" defer></script>
+
+</body>
+</html>
